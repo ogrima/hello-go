@@ -11,7 +11,7 @@ import (
 func main() {  
 
   tutorial42();
-  
+
 }
 
 func tutorial1() {
@@ -68,4 +68,22 @@ func tutorial42(){
 
     no1, no2 := 56, 89
     fmt.Println("sum", no1+no2, "diff", no1-no2)
+
+    c1 := complex(5, 7)
+    c2 := 8 + 27i
+    cadd := c1 + c2
+    fmt.Println("sum:", cadd)
+    cmul := c1 * c2
+    fmt.Println("product:", cmul)
+
+    first := "Naveen"
+    last := "Ramanathan"
+    name := first +" "+ last
+    fmt.Println("My name is",name)
+
+    i := 55      //int
+    j := 67.8    //float64
+    sum := i + int(j) //j is converted to int
+    fmt.Println(sum)
+
 }
