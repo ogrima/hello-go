@@ -81,9 +81,11 @@ func tutorial42(){
     name := first +" "+ last
     fmt.Println("My name is",name)
 
+}
+
+func tutorial43(){
     i := 55      //int
     j := 67.8    //float64
     sum := i + int(j) //j is converted to int
     fmt.Println(sum)
-
 }
